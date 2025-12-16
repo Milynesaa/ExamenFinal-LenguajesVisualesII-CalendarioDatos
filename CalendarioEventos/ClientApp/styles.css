@@ -1,0 +1,37 @@
+﻿/* Estilos globales complementarios a Tailwind */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Animaciones suaves para las transiciones */
+* {
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Scroll suave */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Mejora de los inputs en dispositivos móviles */
+input, textarea, select {
+    font-size: 16px;
+}
+
+    /* Estilos para los checkboxes personalizados */
+    input[type="checkbox"] {
+        cursor: pointer;
+    }
+
+/* Deshabilitar el resize de textarea fuera del control */
+textarea {
+    resize: vertical;
+}

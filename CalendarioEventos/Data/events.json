@@ -1,0 +1,20 @@
+[
+  {
+    "Id": 3,
+    "Titulo": "Reuni\u00F3n de Estudio",
+    "Descripcion": "Reuni\u00F3n de estudios.",
+    "Fecha": "2025-12-15T15:30:00",
+    "Tipo": "Reunion",
+    "Lugar": "Sala de estudios, uninorte",
+    "EsPublico": false
+  },
+  {
+    "Id": 4,
+    "Titulo": "Reuni\u00F3n de trabajo",
+    "Descripcion": "Capacitaci\u00F3n de trabajo",
+    "Fecha": "2025-12-17T12:45:00",
+    "Tipo": "Capacitaci\u00F3n",
+    "Lugar": "Sala Naranja",
+    "EsPublico": false
+  }
+]
